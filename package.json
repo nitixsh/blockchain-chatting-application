@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  
   "dependencies": {
     "dotenv": "^17.4.2",
     "ethers": "^6.16.0",
