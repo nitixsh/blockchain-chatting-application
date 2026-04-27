@@ -9,7 +9,10 @@
 //0xDAFe0b7DC47274AD6338D0f24982bfc7D1AdA68b
 //0x2b380cC39684Ebebb5E77cEdAcA9e7A0fd957C0d
 //0x5449b399E4C2A6E9DF75C6980b346f81aaC7EfE3
-import chatAppJSON from './ChatApp.json'
-export const ChatAppAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+import chatAppJSON from "./ChatApp.json";
 
+// ✅ PASTE YOUR EXACT DEPLOYED SEPOLIA ADDRESS HERE
+export const ChatAppAddress = "0x5FF000b8465987994547B2900ef6b8b9DCf0B68B";
+
+// ✅ ABI (no change needed if file is correct)
 export const ChatAppABI = chatAppJSON.abi;
