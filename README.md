@@ -81,4 +81,5 @@ npm run dev
 
 👩‍💻 Author
 
-Nadia Yeasmin Supti
+Nitish Jha
+Harsh Kalim
