@@ -38,15 +38,15 @@ Embark on a journey into the decentralized world of communication with **ChatBud
   </a> 
   &nbsp;
   <a href="https://ethereum.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/otaviopace/ethereum-icons/main/icons/ethereum-branded.svg" alt="ethereum" width="40" height="40"/> 
+    <img src="https://cdn.simpleicons.org/ethereum" alt="ethereum" width="40" height="40"/> 
   </a> 
   &nbsp;
   <a href="https://metamask.io/" target="_blank" rel="noreferrer"> 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Alternative_Logo.svg" alt="metamask" width="40" height="40"/> 
+    <img src="https://cdn.worldvectorlogo.com/logos/metamask.svg" alt="metamask" width="40" height="40"/> 
   </a> 
   &nbsp;
   <a href="https://hardhat.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/nomiclabs/hardhat/master/docs/docs/assets/logo.svg" alt="hardhat" width="40" height="40"/> 
+    <img src="https://cdn.simpleicons.org/solidity" alt="hardhat" width="40" height="40"/> 
   </a> 
   &nbsp;
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
@@ -55,31 +55,58 @@ Embark on a journey into the decentralized world of communication with **ChatBud
 </p>
 
 ---
-
 ## 🚀 Getting Started
 
-1️⃣ Clone Repository
-git clone https://github.com/nadiasupti/Blockchain-Chat-App.git
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/nitixsh/blockchain-chatting-application.git
+
 cd Blockchain-Chat-App
+```
 
-2️⃣ Install Dependencies
+---
+
+### 2️⃣ Install Dependencies
+```bash
 npm install
+```
 
-3️⃣ Start Local Blockchain
-If using Ganache CLI:
+---
+
+### 3️⃣ Start Local Blockchain
+
+**Using Ganache CLI**
+```bash
 npx ganache
-OR using Hardhat:
+```
+
+**OR using Hardhat**
+```bash
 npx hardhat node
+```
 
-4️⃣ Deploy Smart Contract
-npx hardhat run scripts/deploy.js --network localhost
+---
 
-5️⃣ Run Frontend
+### 4️⃣ Deploy Smart Contract
+```bash
+npx hardhat run scripts/deploy.js --network sepolia
+```
+
+👉 Copy the new contract address and update:
+```
+Context/constants.js
+```
+
+---
+
+### 5️⃣ Run Frontend
+```bash
 npm run dev
+```
 
+---
 
+## 👩‍💻 Authors
 
-👩‍💻 Author
-
-Nitish Jha
-Harsh Kalim
+- [Nitish Jha](https://github.com/nitixsh)
+- [Harsh Kalim](https://github.com/harshkalim07)
