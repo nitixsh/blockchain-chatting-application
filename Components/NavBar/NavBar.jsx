@@ -16,6 +16,7 @@ const NavBar = () => {
     { menu: "Chat", link: "/" },
     { menu: "Contract", link: "contract" },
     { menu: "Setting", link: "setting" },
+    { menu: "Guide", link: "/guide" },
     { menu: "FAQS", link: "faqs" },
     { menu: "Terms of use", link: "terms" },
     // { menu: "Profile", link: "profile" },
